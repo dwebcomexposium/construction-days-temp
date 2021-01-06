@@ -641,8 +641,11 @@ footer li img{
     }
 }
 @media only screen and (max-width: 1280px) {
-	.dateheader, .introheader{
-		margin-bottom: 20px;
+	.dateheader{
+		margin-top: -45px;
+	}
+	.introheader{
+		margin-bottom: 10px;
 	}
 	.fullleft-buttonmid{
 		margin-top: 4em;
@@ -652,7 +655,9 @@ footer li img{
     .fullleft-buttonmid a:last-child {
         display: block;
         margin-top: 40px;
+		margin-left: 0;
     }
+	
 }
 
 @media only screen and (max-width: 1024px) {
