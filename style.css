@@ -865,8 +865,11 @@ h2{
     .fullleft-buttonmid{
         display: block;
         max-width: 90%;
-        margin-top: 90px;
+        margin-top: 75px;
     }
+	.introheader br {
+    display: none;
+}
     .fullleft-buttonmid a:last-child {
         
     margin-top: 34px;
