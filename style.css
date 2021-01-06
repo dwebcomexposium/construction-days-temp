@@ -643,6 +643,7 @@ footer li img{
 @media only screen and (max-width: 1280px) {
 	.dateheader{
 		margin-top: -45px;
+		margin-bottom: 10px;
 	}
 	.introheader{
 		margin-bottom: 10px;
