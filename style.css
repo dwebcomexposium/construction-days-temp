@@ -871,8 +871,12 @@ h2{
         
     margin-top: 34px;
     margin-left: 0;
+		    width: 100%;
 
     }
+	.fullleft-middle{
+		margin-top: 20px;
+	}
     header h1{
         font-size: 33px;
     line-height: 40px;
@@ -963,5 +967,11 @@ h2{
         color: #ffffff;
         font-size: 12px;
     }
+	.stands ul{
+		    padding-left: 20px;
+	}
+	.stands h3{
+		z-index: 99;
+	}
 }
 
