@@ -640,7 +640,14 @@ footer li img{
         line-height: 55px;
     }
 }
-
+@media only screen and (max-width: 480px) {
+	.dateheader, .introheader{
+		margin-bottom: 20px;
+	}
+	.fullleft-buttonmid{
+		margin-top: 4em;
+	}
+}
 @media only screen and (max-width: 1090px) {
     .fullleft-buttonmid a:last-child {
         display: block;
