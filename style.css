@@ -657,6 +657,9 @@ footer li img{
         margin-top: 40px;
 		margin-left: 0;
     }
+	.row.yellowsquare:before{
+		height: 58vh;
+	}
 	
 }
 
