@@ -874,6 +874,7 @@ h2{
         background-image: url(img/bcmobile.png);
         background-size: cover;
         height: inherit;
+		    min-height: 720px;
     }
     .dateheader {
         font-size: 18px;
