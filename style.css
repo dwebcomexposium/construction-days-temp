@@ -83,6 +83,35 @@ line-height: 81px;
 font-weight: 500;
 font-style: normal;
 margin-bottom: 50px;
+line-height: 28px;
+}
+.visuelnon{
+    padding: 0;
+    font-size: 12px;
+    color: #C2C2C2;
+}
+.textcontact a{
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+}
+    .textcontact a:before{
+    content:'';
+    position: absolute;
+    background: #FCFF4F;
+    height: 7px;
+    width: 100%;
+    z-index: -1;
+    bottom: 4px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.textcontact a:hover:before{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    bottom: -5px;
 }
 .introheader{
     font-weight: 400;
@@ -102,7 +131,41 @@ margin-bottom: 50px;
     left: 0;
     border-radius: 25px;
 }
+.cta-espaceclient{
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    margin-right: 20px;
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    letter-spacing: 0.5px;
+    font-size: 19px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.cta-espaceclient:hover{
+    color: #000000;
+    text-decoration: none;
+}
 
+.cta-espaceclient:before{
+    content:'';
+    z-index: 0;
+    position: absolute;
+    background: #FCFF4F;
+    height: 7px;
+    width: 100%;
+    z-index: -1;
+    bottom: 4px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.cta-espaceclient:hover:before{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    bottom: -5px;
+}
 .fullleft-buttonmid{
     margin-top: 7em;
 }
@@ -1078,6 +1141,17 @@ h2{
 	}
 	.stands h3{
 		z-index: 99;
-	}
+    }
+    .cta-espaceclient{
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        margin-right: 20px;
+        display: inline-block;
+        position: relative;
+        color: #000000;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+        text-transform: uppercase;
+        z-index: 1;
+    }
 }
 
