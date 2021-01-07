@@ -34,6 +34,15 @@ header{
     left: -106px;
     padding: 20px 30px 20px 60px;
     transform: rotate(90deg);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fullright a.ensavoirplus:hover{
+    transform: rotate(90deg) translateX(20px);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .fullright img{
     transform: rotate(-90deg);
@@ -68,7 +77,7 @@ line-height: 81px;
 }
 .dateheader{
     color: #C2C2C2;
-    font-size: 22px;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: proxima-nova-extra-condensed, sans-serif;
 font-weight: 500;
@@ -107,6 +116,9 @@ margin-bottom: 50px;
     font-size: 17px;
     border-radius: 10px;
     position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .fullleft-buttonmid a:first-child span{
     position: absolute;
@@ -129,6 +141,28 @@ padding-left: 10px;
     padding: 16px;
     border-radius: 10px;
     background: #FCFF4F;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fullleft-buttonmid a:last-child img:hover{
+    background: #2B2C2F;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fullleft-buttonmid a:first-child:hover{
+    background: #FCFF4F;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #2B2C2F ;
+}
+.fullleft-buttonmid a:first-child:hover span{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #2B2C2F;
 }
 .fullleft-buttonmid a:last-child span{
     font-size: 17px;
@@ -393,6 +427,15 @@ letter-spacing: 1px;
     background: #F9F9F9;
     margin-left: 20px;
     margin-right: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.contact .col:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .contact .col-4{
     background: #F9F9F9;
@@ -474,6 +517,7 @@ line-height: 30px;
     background-image: url(img/imagefooter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right center;
 }
 .interresse .col-7{
     min-height: 450px;
@@ -497,6 +541,33 @@ line-height: 30px;
     text-decoration: none;
 font-weight: 700;
 font-style: normal;
+position: relative;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+z-index: 0;
+}
+.interresse .col-7 a:hover{
+    background: transparent;
+    color: #2B2C2F;
+    
+}
+
+.interresse  a:after{
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    position: absolute;
+    content: ' ';
+    z-index: -1;
+}
+.interresse  a:hover:after{
+    width: 100%;
 }
 
 
@@ -713,6 +784,7 @@ h2{
     right: 0;
     left: inherit;
 }
+
 .backgroundsombre .col:after{
     left: -14px;
 }
@@ -870,6 +942,9 @@ h2{
     .fullleft-logo img {
         max-width: 150px;
     }
+    /* .centpourcent h2 br{
+        display: none;
+    } */
     .fullleft{
         background-image: url(img/bcmobile.png);
         background-size: cover;
@@ -877,7 +952,7 @@ h2{
 		    min-height: 720px;
     }
     .dateheader {
-        font-size: 18px;
+        font-size: 23px;
         margin-bottom: 7px;
 		margin-top: 20px;
     }
