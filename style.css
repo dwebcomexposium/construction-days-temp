@@ -535,19 +535,32 @@ padding-left: 20px;
 .contact .col, .contact .col-4{
     padding-bottom: 40px;
 }
-.contact .col-8{
+.contact .col-text-contact{
     align-self: center;
     padding-left: 30px;
 }
-.contact .col-8 h3{
+.contact .col-text-contact h3{
     font-family: proxima-nova, sans-serif;
 font-weight: 700;
 font-size: 25px;
 font-style: normal;
 padding-bottom: 40px;
 }
+.contact .col-text-contact{
+	background-color: inherit;
+}
+.contact .col-text-contact p{
+	padding-left: 0;
+}
+.contact .col-text-contact:hover{
+	background-color: inherit;
+	box-shadow: inherit;
+}
+.contact .col-text-contact:before{
+	display: none;
+}
 
-.contact .col-8 p{
+.contact .col-text-contact p{
 font-weight: 400;
 font-style: normal;
 font-size: 21px;
@@ -968,9 +981,11 @@ h2{
     .contact .row.rowtrois .col:last-child{
         display: block;
     }
-    .contact .row:last-child .col-8{
-        flex: 0 0 100%;
-        max-width: 100%;
+    .contact .row:last-child .col-text-contact{
+		padding-top: 100px;
+                max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
     }
     .interresse .row {
         flex-direction: column;
@@ -1115,7 +1130,7 @@ h2{
     .intern .header img {
         width: 180px;
     }
-    .intern .row .col-8{
+    .intern .row .col-text-contact{
         display: none;
     }
     .intern .header{height: 25vh;}
