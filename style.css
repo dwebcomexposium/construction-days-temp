@@ -1013,6 +1013,9 @@ h2{
 }
 
 @media only screen and (max-width: 480px) {
+	.backgroundsombre .row .col {
+    min-width: 50%;
+}
 	.centretoi{
 		padding-top: 50px;
 	}
