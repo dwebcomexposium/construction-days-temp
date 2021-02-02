@@ -1013,7 +1013,9 @@ h2{
 }
 
 @media only screen and (max-width: 480px) {
-	
+	.centretoi{
+		padding-top: 50px;
+	}
 	header{
 		    min-height: 720px;
 	}
