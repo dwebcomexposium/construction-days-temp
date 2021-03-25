@@ -141,6 +141,7 @@ line-height: 28px;
     font-size: 19px;
     text-transform: uppercase;
     z-index: 1;
+	text-shadow: 2px 0px 5px rgb(155 155 155 / 47%);
 }
 .cta-espaceclient:hover{
     color: #000000;
