@@ -131,6 +131,39 @@ line-height: 28px;
     left: 0;
     border-radius: 25px;
 }
+
+
+/***** GALLERY LOGOS ******/
+
+.gallery-logos img{
+	max-width: 100px;
+}
+.gallery-logos{
+	margin: 0 !important;
+	padding: 0 !important;
+	width: inherit;
+}
+.gallery-logos li{
+	display: inline-block;
+	padding: 5px;
+}
+.gallery-logos li:before{
+	display: none;
+}
+#ancreensavoirplus h3{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-size: 23px;
+	font-weight: 600;
+}
+#ancreensavoirplus .rowtext{
+	display: block;
+}
+
+/***** FIN GALLERY LOGOS ******/
+
+
+
 .cta-espaceclient{
     font-family: proxima-nova-extra-condensed, sans-serif;
     margin-right: 20px;
