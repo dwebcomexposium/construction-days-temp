@@ -714,9 +714,9 @@ footer li img{
     display: none;
 }
 
-.contact .row.rowtrois .col:last-child{
+/** .contact .row.rowtrois .col:last-child{
     display: none;
-}
+} **/
 .intern .header .row{
     height: 15vh;
     align-items: center;
@@ -1011,9 +1011,9 @@ h2{
     .supermargintop {
         margin-top: 100px;
     }
-    .contact .row:last-child .col:first-child{
+    /* .contact .row:last-child .col:first-child{
         display: none;
-    }
+    } */ 
     .contact .row.rowtrois .col{
         display: block;
         margin-top: 20px;
